@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+img {
+    padding-top: 20px;
+    height: 60px;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form {
+    padding: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+.form-check{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.form-check-input{
+    margin-right:10px;
+}
+
+.form-check-label{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px;
+}
+
+.btn-wider{
+    width: 92%;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-text {
+    margin-top: 35px;
+    font-size: 12px;
+    color: #777;
+}
